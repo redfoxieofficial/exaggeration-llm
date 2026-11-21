@@ -1,0 +1,9 @@
+,macro-F1,95% CI,accuracy,F1 downplays,F1 same,F1 exaggerates,pred downplays,pred same,pred exaggerates
+majority class (always 'same'),0.253,"[0.243, 0.263]",0.613,0.0,0.76,0.0,0%,100%,0%
+A: keyword rules,0.404,"[0.364, 0.442]",0.467,0.244,0.624,0.343,29%,44%,27%
+B: zero-shot direct,0.218,"[0.192, 0.245]",0.288,0.296,0.357,0.0,77%,22%,1%
+"B: zero-shot direct, calibrated",0.321,"[0.283, 0.360]",0.345,0.284,0.441,0.238,38%,31%,31%
+C: zero-shot decomposed,0.459,"[0.416, 0.501]",0.503,0.328,0.6,0.45,26%,44%,30%
+D: chain-of-thought,0.244,"[0.208, 0.280]",0.249,0.214,0.275,0.244,33%,16%,51%
+E: LoRA direct (100 pairs),0.258,"[0.244, 0.274]",0.609,0.0,0.757,0.016,0%,99%,1%
+F: LoRA strength (decomposed),0.575,"[0.530, 0.619]",0.636,0.452,0.732,0.54,18%,55%,27%
